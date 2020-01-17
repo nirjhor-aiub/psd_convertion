@@ -1,0 +1,515 @@
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+}
+ .row-no-padding [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  
+}
+section.section_one{
+    background-color: darkslategrey;
+}
+section.section_one div.sectionone_header h4,
+section.section_three div.sectionone_header h4,
+section.section_seven div.sectionone_header h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+section.section_seven div.sectionone_header h4{
+    margin-top: 50px;
+}
+section.section_one div.sectionone_header p,
+section.section_three div.sectionone_header p,
+section.section_seven div.sectionone_header p{
+    color: #6D8A9C;
+    font-family: 'Josefin Slab', serif;
+    font-size: 17px;
+    margin: 18px 0;
+}
+section.section_one div.sectionone_header p:first-letter,
+section.section_one div.sectionone_header p span{
+    color: #EC273C;
+    font-size: 20px;
+    font-weight: 800;
+}
+section.section_one div.sectionone_header div.sectionone_bolddiv,
+section.section_three div.sectionone_header div.sectionone_bolddiv,
+section.section_seven div.sectionone_header div.sectionone_bolddiv{
+    height: 10px;
+    background-color: #6D8A9C;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+}
+section.section_one div.sectionone_header div.sectionone_lightdiv,
+section.section_three div.sectionone_header div.sectionone_lightdiv,
+section.section_seven div.sectionone_header div.sectionone_lightdiv{
+    margin: -10px auto 0;
+    width: 50%;
+    height: 1px;
+    background-color: #6D8A9C;
+}
+
+section.section_one div.sectionone_header,
+section.section_three div.sectionone_header,
+section.section_seven div.sectionone_header{
+    text-align: center;
+    
+}
+
+section.section_one div.sectionone_content{
+    margin-top: 30px;
+}
+section.section_one div.sectionone_content div.sectionone_images{
+    position: relative;
+    text-align: center;
+    padding: 0 50px 0 180px;
+}
+section.section_one div.sectionone_content div.sectionone_images div.columnone,
+section.section_one div.sectionone_content div.sectionone_images div.columntwo,
+section.section_one div.sectionone_content div.sectionone_images div.columnthree{
+     
+    position: relative;
+}
+section.section_one div.sectionone_content div.sectionone_images div.columnone img,
+section.section_one div.sectionone_content div.sectionone_images div.columntwo img,
+section.section_one div.sectionone_content div.sectionone_images div.columnthree img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.3;
+}
+section.section_one div.sectionone_content div.sectionone_images div.columnone p,
+section.section_one div.sectionone_content div.sectionone_images div.columntwo p,
+section.section_one div.sectionone_content div.sectionone_images div.columnthree p{
+    margin-top: -30px;
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+}
+section.section_one div.sectionone_content div.sectionone_images div.columnone img.mountain,
+section.section_one div.sectionone_content div.sectionone_images div.columntwo img.polar,
+section.section_one div.sectionone_content div.sectionone_images div.columnthree img.safari{
+    margin-top: 20px;
+}
+section.section_one div.sectionone_content div.sectionone_images div.columnone img.mountain + p,
+section.section_one div.sectionone_content div.sectionone_images div.columntwo img.polar + p,
+section.section_one div.sectionone_content div.sectionone_images div.columnthree img.safari + p{
+    margin-bottom: 30px;
+}
+section.section_one div.sectionone_summary{
+    padding: 43px 120px 43px 0;
+}
+section.section_one div.sectionone_summary p:first-of-type{
+    margin: 20px 0;
+    font-family: 'BenchNine', sans-serif;
+    color: #6D8A9C;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+section.section_one div.sectionone_summary h4:first-child{
+    text-transform: capitalize;
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+}
+section.section_one div.sectionone_summary button:last-child{
+    padding: 3px 70px;
+    background-color: #6D8A9C;
+    color: azure;
+    border-width: 0;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+}
+section.sectiontwo div.sectiontwo_content{
+    text-align: center;
+    background-color: #1F2178;
+    font-size: 20px;
+    color: #fff;
+    font-weight: lighter;
+    padding: 50px 0;
+    width: 100%;
+}
+section.sectiontwo div.sectiontwo_content p{
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: lowercase;
+}
+section.sectiontwo div.sectiontwo_content p span{
+    font-weight: 800;
+    
+}
+section.section_three div.sectionthreecontent_firstrow{
+    padding: 0 190px;
+}
+section.section_three div.sectionthreecontent_firstrow div.oldbudget{
+    margin-top: 40px;
+}
+
+section.section_three div.sectionthreecontent_firstrow div.oldbudget img{
+    width: 230px;
+    height: 120px;
+}
+section.section_three div.sectionthreecontent_firstrow div.oldbudget p:first-of-type{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 20px;
+}
+section.section_three div.sectionthreecontent_firstrow div.oldbudget p:nth-child(3){
+    font-size: 10px;
+    padding-right: 10px;
+}
+section.section_three div.sectionthreecontent_firstrow div.oldbudget p:last-child{
+    font-size: 11px;
+}
+
+/*CONFUSED!!!!!!!*/
+
+section.section_five{
+    text-align: center;
+    margin-top: 50px;
+}
+section.section_five div.sectionfive_div1{
+    margin-right: -30px;
+}
+section.section_five div.sectionfive_div2{
+    margin-right: -15px;
+}
+section.section_five div.sectionfive_div3{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+section.section_five div.sectionfive_div4{
+    margin-left: -15px;
+}
+section.section_five div.sectionfive_div2,
+section.section_five div.sectionfive_div4{
+    background-color: #0E0F4E;
+    padding: 40px 0;
+}
+
+section.section_five div.sectionfive_div1,
+section.section_five div.sectionfive_div3{
+    background-color: #3C40C2;
+    padding: 40px 0;
+}
+section.section_five div.sectionfive_div1 i,
+section.section_five div.sectionfive_div2 i,
+section.section_five div.sectionfive_div3 i,
+section.section_five div.sectionfive_div4 i{
+    font-size: 30px;
+    color: #fff;
+}
+section.section_five div.sectionfive_div1 p:first-of-type,
+section.section_five div.sectionfive_div2 p:first-of-type,
+section.section_five div.sectionfive_div3 p:first-of-type,
+section.section_five div.sectionfive_div4 p:first-of-type{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+section.section_five div.sectionfive_div1 p:last-child,
+section.section_five div.sectionfive_div2 p:last-child,
+section.section_five div.sectionfive_div3 p:last-child,
+section.section_five div.sectionfive_div4 p:last-child{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+/*
+section.section_four div.sectionfour_leftside{
+    margin-right: -15px;
+}
+section.section_four div.sectionfour_rightside{
+    margin-left: -15px; 
+}
+*/
+section.section_four div.sectionfour_leftside img,
+section.section_four div.sectionfour_rightside img{
+    width: 100%;
+    height: 300px;
+}
+section.section_four div.sectionfour_leftside div.sectionfour_content,
+section.section_four div.sectionfour_rightside div.sectionfour_content{
+    text-align: center;
+    padding: 60px 50px 30px;
+    height: 300px;
+}
+section.section_four div.sectionfour_leftside div.sectionfour_content button,
+section.section_four div.sectionfour_rightside div.sectionfour_content button{
+    color: #6D8A9C;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    border: 1px solid #6D8A9C;
+    background-color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 70px;
+}
+section.section_four div.sectionfour_leftside div.sectionfour_content p:nth-child(2),
+section.section_four div.sectionfour_rightside div.sectionfour_content p:nth-child(2){
+    color: #6D8A9C;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 0 40px;
+}
+section.section_four div.sectionfour_leftside div.sectionfour_content p:first-child,
+section.section_four div.sectionfour_rightside div.sectionfour_content p:first-child{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #6D8A9C;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+
+
+
+
+section.section_six div.bydestination{
+    background-color: #1C1D29;
+    margin-right: -15px;
+}
+section.section_six div.bydestination,
+section.section_six div.byadventures{
+    text-align: center;
+    padding: 25px 0;
+}
+section.section_six div.bydestination p,
+section.section_six div.byadventures p{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    word-spacing: 4px;
+}
+
+section.section_six div.byadventures{
+    background-color: #0E109E;
+    margin-left: -15px;
+}
+
+
+
+
+section.section_seven{
+    background-color: #F5F7F7;
+}
+section.section_seven div.sss{
+    padding: 50px 220px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1,
+section.section_seven div.sectionseven_firstcol div.row2_col1{
+    background-color: #fff;
+    position: relative;
+    padding: 7px;
+    
+}
+
+section.section_seven div.sectionseven_firstcol div.row1_col1 h6,
+section.section_seven div.sectionseven_firstcol div.row2_col1 h6{
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #4C4F4F;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p:first-of-type,
+section.section_seven div.sectionseven_firstcol div.row2_col1 p:first-of-type{
+    font-style: oblique;
+    margin-top: -5px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p:nth-child(6),
+section.section_seven div.sectionseven_firstcol div.row2_col1 p:nth-child(6){
+    margin-top: -15px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 button,
+section.section_seven div.sectionseven_firstcol div.row2_col1 button{
+    padding:4px 15px;
+    color: #fff;
+    background-color: #4C4F4F;
+    font-size: 10px;
+    border: 0;
+    font-weight: 600;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 img,
+section.section_seven div.sectionseven_firstcol div.row2_col1 img{
+    width: 100%;
+    height: 150px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p:first-of-type + p i,
+section.section_seven div.sectionseven_firstcol div.row2_col1 p:first-of-type + p i{
+    font-size: 14px;
+    padding-right: 3px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 ul,
+section.section_seven div.sectionseven_firstcol div.row2_col1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 ul li,
+section.section_seven div.sectionseven_firstcol div.row2_col1 ul li{
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 12px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p:last-of-type span,
+section.section_seven div.sectionseven_firstcol div.row2_col1 p:last-of-type span{
+    color: #4C4F4F;
+    font-size: 12px;
+    font-weight: 600;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p:last-of-type,
+section.section_seven div.sectionseven_firstcol div.row2_col1 p:last-of-type{
+    margin-top: -20px;
+}
+section.section_seven div.sectionseven_firstcol div.row1_col1 p,
+section.section_seven div.sectionseven_firstcol div.row2_col1 p{
+    font-size: 9px;
+    color: #999E9E;
+}
+section.section_seven div.sectionseven_firstcol div.row2_col1{
+    margin-top: 30px;
+}
+
+
+
+section.footer{
+    background-image: url(../img/entrada/footerbackground.jpg);
+}
+section.footer div.footer_header{
+    position: relative;
+}
+section.footer div.footer_header h3{
+    color: #9BA1A0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: ; 
+}
+section.footer div.footer_header div.go{
+    position: absolute;
+    right: 0;
+    bottom: 21px;
+    text-align: center;
+}
+section.footer div.footer_header div.go p{
+    color: #9BA1A0;
+    font-size: 18px;
+}
+section.footer div.footer_header div.go div.footer_bolddiv{
+    height:6px;
+    width: 50px;
+    background-color: #9BA1A0;
+    margin-top: -12px;
+}
+
+section.footer div.footer_header div.footer_lightdiv{
+    height: 1px;
+    background-color: #9BA1A0;
+}
+section.footer div.footer_header p:last-child{
+    font-size: 12px;
+    font-style: oblique;
+    color: #474A4A;
+    margin-top: 5px;
+}
+
+section.footer div.middle{
+    margin-top: 40px;
+}
+section.footer div.aboutentrada ul,
+section.footer div.destinations ul,
+section.footer div.themes ul,
+section.footer div.reservation ul,
+section.footer div.askentrada ul,
+section.footer div.contact ul{
+    margin: 0;
+    padding: 0;
+}
+section.footer div.aboutentrada ul li,
+section.footer div.destinations ul li,
+section.footer div.themes ul li,
+section.footer div.reservation ul li,
+section.footer div.askentrada ul li,
+section.footer div.contact ul li{
+    list-style-type: none;
+    font-size: 9px;
+    color: #474A4A;
+    line-height: 18px;
+
+}
+section.footer div.aboutentrada ul li:first-child,
+section.footer div.destinations ul li:first-child,
+section.footer div.themes ul li:first-child,
+section.footer div.reservation ul li:first-child,
+section.footer div.askentrada ul li:first-child,
+section.footer div.contact ul li:first-child{
+    font-size: 12px;
+    color: #9BA1A0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section.footer div.contact ul li i{
+    margin-right: 10px;
+}
+
+section.footer div.footerfirst_row{
+    padding: 50px 150px 0;
+}
+
+section.footer div.middle{
+   padding: 0 150px;
+}
+section.footer div.iconrow{
+
+}
+
+section.footer div.iconrow div.icons{
+
+}
+section.footer div.icons ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+section.footer div.icons ul li{
+    list-style-type: none;
+    color: #9BA1A0;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0 60px;
+    margin: 30px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

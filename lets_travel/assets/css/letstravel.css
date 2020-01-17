@@ -1,0 +1,245 @@
+
+section.popularflight{
+    background-color: ivory;
+}
+
+section.popularflight div.popularflight_title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+section.popularflight div.popularflight_title h5{
+    color: #D60D09;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+section.popularflight div.popularflight_title div.popularflight_title_border{
+    border: 2px solid #D60D09;
+    width: 100px;
+    margin: 20px auto 0px;
+}
+
+section.popularflight div.popularflight_title h2{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+section.popularflight div.londonflight{
+    border: 1px solid #DADBB8;
+}
+
+section.popularflight div.londonflight div.lf_information p.littlebold{
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+section.popularflight div.londonflight div.lf_information p.littlebold span.amount{
+    color: #D60D09;
+
+}
+section.popularflight div.londonflight div.lf_information p.light,
+section.popularflight div.londonflight div.lf_information i.light
+{
+    color: #DADBB8;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+section.popularflight div.londonflight div.lf_information p.light span.saving{
+    color: #D60D09;
+}
+section.popularflight div.londonflight div.lf_information p.largebold{
+    font-weight: bolder;
+    
+}
+section.popularflight div.londonflight div.lf_information{
+    margin: 15px 0px 25px 20px;
+}
+section.popularflight div.londonflight div.lf_information i.light{
+    word-spacing: 2px;
+    padding-left: 20px;
+    
+}
+
+section.popularflight div.londonflight div.lf_information button{
+    background-color: #D60D09;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+section.popularflight div.londonflight div.lf_information i.light span{
+    margin-left: 8px;
+}
+
+
+
+
+
+
+section.hotels{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-color:floralwhite;
+}
+section.hotels div.hotels_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+section.hotels div.hotels_title h5{
+    font-weight: bold;
+    color: #17985E;
+    letter-spacing: 2px;
+}
+section.hotels div.hotels_title h3{
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    
+}
+section.hotels div.hotelpic_info img{
+    border-radius: 20px;
+    margin-right: 40px;
+    
+   
+}
+section.hotels div.hotelpic_info{
+   margin-bottom:25px;
+}
+section.hotels div.hotelpic_info div.hotel_info{
+    
+   
+    
+}
+section.hotels div.hotelpic_info div.hotel_info p.lightbold{
+    font-size: 12px;
+    text-transform:capitalize;
+    font-weight:bold;
+    color: #2B1F2B;
+}
+section.hotels div.hotelpic_info div.hotel_info p.transparent{
+    font-size: 10px;
+    color: #81BAA5;
+}
+section.hotels div.hotelpic_info div.hotel_info h5{
+    font-weight:bold;
+    color:black;
+    letter-spacing:1px;
+}
+
+
+div.div_one{
+    width:100%;
+    height: 300px;
+    background-color: burlywood;
+    
+    
+}
+div.div_one h2{ 
+    border: 5px solid red;
+    
+}
+div.div_two{
+    width:800px;
+    height:auto;
+    background-color:darkblue;
+    position:relative;
+
+}
+div.div_two h1{
+    border: 5px solid green;
+    
+}
+div.div_two p{
+    border: 3px solid red;
+    
+}
+div.div_two img{
+    border:3px solid yellow;
+    
+    
+    
+}
+div.div_two div.insidediv_two{
+    width:200px;
+    height:200px;
+    background-color:forestgreen;
+}
+div.div_two div.insidediv_two p{
+
+}
+div.div_three{
+    width: 300px;
+    height: 200px;
+    border:10px solid black;
+    background-color: brown;
+}
+
+button{
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

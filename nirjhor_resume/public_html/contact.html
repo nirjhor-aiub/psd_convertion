@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="main_wrapper">
+             <!--=========HEADER part START from here============-->
+            <div id="header">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="header_logo">
+                            <h1><span>N</span>ir<span>j</span>hor</h1>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="menu_bar">
+                            <ul>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!--=========HEADER part FINISHED here============-->
+             <div id='contact_form'>
+                 <div class="row">
+                     <div class="col-12">
+                         <div class="contact">
+                             <h3>Drop me a line and let's get to know each other</h3>
+                             <form action="#" method="post">
+                                 <div class="all_input">
+                                 <input type="text" name="person_name" size="60" placeholder="What's your name?"/><br/>
+                                 <input type="email" name="email" size="60" placeholder="And your email?"/><br/>
+                                 <input type="tel" name="tel_num" size="60" placeholder="phone number?"/>
+                                 </div>
+                                 <textarea name="message" rows="8" cols="61" placeholder="comments,thoughts or questions"></textarea>
+                                 <input type="submit" value="press me and send your message!"/>
+                             </form>
+                             <div class="phone">
+                                 <p>You don't like forms?Give me a Call<span>+880 168 143 0 143</span></p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+             <!--=========GOOGLE MAP START from here============-->
+             <div id="google_map">
+                 <div class="row">
+                     <div class="col-12">
+                         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:440px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://privacypolicygenerator.info">privacy policy example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(23.911207643409753,90.3779758718749),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(23.911207643409753,90.3779758718749)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Tongi,Bangladesh<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                     </div>
+                 </div>
+             </div>
+             
+             <!--=========GOOGLE MAP END here============-->
+             
+             
+             <!--=========FOOTER  part START from here============-->
+             <div id="footer">
+                 <div class="row">
+                     <div class="col-6">
+                         <div class="copy_right">
+                             <p>&copy; Copyright 2016, by Nirjhor. All Rights Reserved.</p>
+                         </div>
+                     </div>
+                     <div class="col-6">
+                         <div class="footer_icon">
+                             <ul>
+                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-vine" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+             <!--=========FOOTER  part START from here============-->
+        </div>
+    </body>
+</html>

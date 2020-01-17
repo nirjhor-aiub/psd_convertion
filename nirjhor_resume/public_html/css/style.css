@@ -1,0 +1,662 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Slabo 27px', serif;
+    background-image: url("../images/bg3.jpg");
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*============Main wrapper============*/
+#main_wrapper{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+}
+/*============Main wrapper============*/
+
+/*===========  START HEADER SECTION  ==========================*/
+#header{
+    background-color: black;
+    border-bottom: 3px solid rgba(255,111,2,1.0);
+}
+.header_logo h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Niconne', cursive;
+}
+.header_logo h1>span:first-child{
+    font-size: 55px;
+    color: rgba(255,111,2,1.0);
+    
+}
+.header_logo h1>span:last-child{
+    font-size: 45px;
+    color: rgba(255,111,2,1.0);
+}
+.menu_bar{
+   margin-top: 13px;
+}
+.menu_bar > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu_bar > ul > li{
+    display: table-cell;
+    width: 1%;
+    text-align: center;
+}
+.menu_bar > ul > li > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 3px solid transparent;
+    transition: all 400ms ease;
+    display: inline-block;
+    position: relative;
+}
+.menu_bar > ul > li > a:after{  /*making menu underline using pseudo class*/
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 3px solid #F54F36;
+  transition: 0.4s ease;
+}
+.menu_bar > ul > li > a:hover:after{
+  width: 100%;
+  color: #F54F36;
+}
+.menu_bar > ul > li > a:hover{
+    color: #F54F36;
+    
+}
+
+/*===========   END HEADER SECTION   ==========================*/
+
+
+/*===========   START BANNER SECTION   ==========================*/
+#banner{
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-top: 3px solid rgba(255,111,2,1.0);
+
+}
+#banner .line{
+    width: 584px;
+    height: 63px;
+    background-color: rgba(255,111,2,1.0);
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+    position: absolute;
+    bottom: 193px;
+    left: 175px;
+    color: #fff;
+}
+#banner img{
+    border-bottom:5px solid rgba(255,111,2,1.0);
+}
+#banner h2{
+    color: #fff;
+    position: absolute;
+/*
+   middle left: 282px;
+    top: 122px;
+*/
+/*
+  bottom  top: 481px;
+    left: 85px;
+*/
+    left: 85px;
+    top: 486px;
+    z-index: 10;
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    font-weight: 800;
+    font-size: 45px;
+    -webkit-animation-name: simple;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate-reverse;
+    animation-name: simple;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    
+}
+@-webkit-keyframes simple{
+
+    0%{left: 85px;top: 486px;}
+    15%{left: 85px;top: 486px;}
+    30%{left: 282px;top: 122px;}
+    55%{left: 282px;top: 122px;}
+    70%{left: 470px;top: -220px;}
+    85%{left: 470px;top: -220px;}
+    100%{left: 470px;top: -220px;}
+}
+@keyframes simple{
+
+    0%{left: 85px;top: 486px;}
+    15%{left: 85px;top: 486px;}
+    30%{left: 282px;top: 122px;}
+    55%{left: 282px;top: 122px;}
+    70%{left: 470px;top: -220px;}
+    85%{left: 470px;top: -220px;}
+    100%{left: 470px;top: -220px;}
+}
+#banner .banner_content{
+    
+    position: absolute;
+    right: 92px;
+    bottom: 88px;
+   font-size: 35px;
+   color: rgba(255,111,2,1.0);
+   #banner .banner_content p:first-child::first-letter{
+       color: #fff;
+   }
+    
+/*    background: linear-gradient(to right, rgba(18,17,16,1.0) 50%, rgba(209,203,201,1.0) 50%);*/
+}
+    
+
+/*===========   END BANNER SECTION    ==========================*/
+
+/*===========   START VISION SECTION    ==========================*/
+
+#vision .vision_photo{
+    padding-top: 10px;
+}
+#vision .vision_photo > h1,#mission .mission_photo > h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#vision .vision_photo > h1:first-letter{
+    color: rgb(255,111,2);
+    font-size: 40px;
+    font-weight: 800;
+}
+#vision .vision_photo > img{
+    -webkit-animation-name: rotate_vm;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: rotate_vm;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: auto;
+}
+@-webkit-keyframes rotate_vm{
+    0%{-webkit-transform: rotate(0deg);}
+    25%{-webkit-transform: rotate(3deg);}
+    50%{-webkit-transform: rotate(-6deg);}
+    75%{-webkit-transform: rotate(6deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}
+@keyframes rotate_vm{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(3deg);}
+    50%{transform: rotate(-6deg);}
+    75%{transform: rotate(6deg);}
+    100%{transform: rotate(0deg);}
+}
+#vision .vision_content{
+    background-color: #000;      /*rgb(11,189,217);*/
+    border-left: 5px solid rgb(255,111,2);
+    color: #fff;
+    padding: 15px 30px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 7px 7px 16px 2px rgba(0, 0, 0, 0.7);
+    box-shadow: 7px 7px 16px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Abel', sans-serif;
+}
+#vision .vision_content p i{
+    color: rgb(255,111,2);
+    margin-right: 5px;
+}
+#vision .vision_content p{
+    text-align: justify;
+}
+/*===========   END VISION SECTION    ==========================*/
+
+/*===========   START MISSION SECTION    ==========================*/
+@-webkit-keyframes rotate_m{
+    0%{-webkit-transform: rotate(0deg);}
+    25%{-webkit-transform: rotate(-3deg);}
+    50%{-webkit-transform: rotate(6deg);}
+    75%{-webkit-transform: rotate(-6deg);}
+    100%{-webkit-transform: rotate(0deg);}
+}
+@keyframes rotate_m{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-3deg);}
+    50%{transform: rotate(6deg);}
+    75%{transform: rotate(-6deg);}
+    100%{transform: rotate(0deg);}
+}
+#mission .mission_photo > img{
+    -webkit-animation-name: rotate_m;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: rotate_m;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: auto;
+}
+#mission .mission_photo > h1:first-letter{
+    color: rgb(235,27,59);
+    font-size: 40px;
+    font-weight: 800;
+}
+#mission .mission_content{
+    background-color: #000;   /*rgb(11,189,217);*/
+    border-left: 5px solid rgb(235,27,59);
+    color: #fff;
+    padding: 15px 30px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 7px 7px 16px 2px rgba(0, 0, 0, 0.7);
+    box-shadow: 7px 7px 16px 2px rgba(0, 0, 0, 0.7);
+    font-family: 'Abel', sans-serif;
+}
+#mission .mission_content p i{
+    margin-right: 5px;
+    color: rgb(235,27,59);
+    
+}
+
+/*===========   END MISSION SECTION    ==========================*/
+
+/*===========   START DREAM SECTION    ==========================*/
+#dream .dream_content{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255,111,2,1.0);
+    padding: 30px 0;
+    overflow: hidden;
+}
+#dream .dream_content > img{
+    -webkit-animation-name: dream_img;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: dream_img;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    -webkit-backface-visibility:hidden;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    
+}
+@-webkit-keyframes dream_img{
+/*    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(180deg);}*/
+    0%{-webkit-transform: translateX(0px);}
+    25%{-webkit-transform: translateX(-20px);}
+    50%{-webkit-transform: translateX(0px);}
+    75%{-webkit-transform: translate(20px);}
+    100%{-webkit-transform: translate(0px);}
+}
+
+@keyframes dream_img{
+/*    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(180deg);}*/
+    0%{transform: translateX(0px);}
+    25%{transform: translateX(-20px);}
+    50%{transform: translateX(0px);}
+    75%{transform: translate(20px);}
+    100%{transform: translate(0px);}
+}
+/*@keyframes dream_img{
+    from{transform: rotateY(0deg);}
+    to{transform: rotateY(360deg);}
+    0%{transform: rotateY(0deg);}
+    30%{transform: rotateY(-30deg);}
+    40%{transform: rotateY(60deg);}
+    70%{transform: rotateY(30deg);}
+}*/
+#dream .dream_content .dream_point p{
+    color: #fff;
+}
+/*===========   END DREAM SECTION    ==========================*/
+
+
+
+/*===========   START [[[[[[[[[[ABOUT SCHOOL]]]]]]]]]]SECTION    ==========================*/
+#about img{
+    width: 100%;
+}
+#about #school .attach .col-6{
+    padding: 0px;
+    margin: -3px 0;
+}
+#about #school{
+   background: linear-gradient(to bottom right,rgba(255,111,2,1.0),rgba(255,111,2,0.6));   /*#fff;rgba(17,141,79,1)*/
+}
+#about #school h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#about #school .school_pics div.full_attach{
+    padding: 0;
+    margin-top: 3px;
+}
+/*===========   END [[[[[[[[[[ABOUT SCHOOL]]]]]]]]]]SECTION    ==========================*/
+
+
+/*===========   START [[[[[[[[[[ABOUT COLLEGE]]]]]]]]]]SECTION    ==========================*/
+#about #college .attach .col-6{
+    padding: 0px;
+    margin: -3px 0;
+}
+#about #college{
+    background: linear-gradient(to bottom left,rgba(255,111,2,1.0),rgba(255,111,2,0.6)); /*#fff;rgb(253,216,88);*/
+    color: #000;
+}
+#about #college h1{
+    text-align: center;
+}
+#about #college .college_pics div.full_attach{
+    padding: 0;
+    margin-top: 3px;
+    
+}
+/*===========   END [[[[[[[[[[ABOUT COLLEGE]]]]]]]]]]SECTION    ==========================*/
+
+/*===========   START [[[[[[[[[[ABOUT UNIVERSITY]]]]]]]]]]SECTION    ==========================*/
+#university{
+    overflow: hidden;
+}
+#university h1{
+    text-align: center;
+}
+#university .polaroid{
+    background-color: rgba(255,111,2,1.0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#university .polaroid_content{
+    text-align: center;
+    padding: 40px 0px;
+}
+#university .versity1{
+    -webkit-animation-name: versity_photo1;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    animation-name: versity_photo1;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+  
+}
+@-webkit-keyframes versity_photo1{
+    0%{-webkit-transform: translateX(-300px);}
+    100%{-webkit-transform: translateX(0px)}
+}
+@keyframes versity_photo1{
+    0%{transform: translateX(-300px);}
+    100%{transform: translateX(0px);}
+}
+#university .versity2{
+     -webkit-animation-name: versity_photo2;
+    -webkit-animation-duration: 1.8s;
+    -webkit-animation-timing-function: linear;
+    animation-name: versity_photo2;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes versity_photo2{
+    0%{-webkit-transform: translateY(357px);}
+    100%{-webkit-transform: translateY(0px)}
+}
+@keyframes versity_photo2{
+    0%{transform: translateY(357px);}
+    100%{transform: translateY(0px)}
+}
+#university .versity4{
+    -webkit-animation-name: versity_photo4;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    animation-name: versity_photo4;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes versity_photo4{
+    0%{-webkit-transform: translateX(300px);}
+    100%{-webkit-transform: translateX(0px)}
+}
+@keyframes versity_photo4{
+    0%{transform: translateX(300px);}
+    100%{transform: translateX(0px);}
+}
+/*===========   END [[[[[[[[[[ABOUT UNIVERSITY]]]]]]]]]]SECTION    ==========================*/
+
+/*===========   START [[[[[[[[[[GALLERY]]]]]]]]]]SECTION    ==========================*/
+#gallery{
+/*    background-image: url(../images/gallery_bg2.jpg);*/
+   background-color: #000;
+}
+#gallery .col-3,#gallery .col-4{
+    border: 1px solid rgba(255,111,2,.4);
+}
+#gallery h1{
+    color: rgba(255,111,2,1.0);
+    text-align: center;
+}
+#gallery img{
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+    -webkit-transition: all 300ms ease;
+    transition: all 700ms ease;
+}
+#gallery img:hover{
+   -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+/*    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);*/
+    opacity: 1.0;
+}
+/*===========   END [[[[[[[[[[GALLERY]]]]]]]]]]SECTION    ==========================*/
+
+/*===========   START [[[[[[[[[[PORTFOLIO]]]]]]]]]]SECTION    ==========================*/
+#portfolio .education table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.objective h2,.education h2,.skill h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.education h1:after{
+    
+}
+.objective h2:after,.education h2:after{
+    content:"";
+    background-color: rgba(255,111,2,1.0);
+    width: 400px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 404px;
+    margin-top: 8px;
+}
+.education th,.education td{
+    padding: 15px 10px;
+}
+.education th{
+    background-color: rgba(255,111,2,1.0);
+    color: #000;
+}
+.education tr:hover{
+    background-color: rgba(255,111,2,0.7);
+}
+.skill h2:after{
+    content:"";
+    background-color: rgba(255,111,2,1.0);
+    width: 485px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    left: 370px;
+}
+.skill ul{
+    list-style-type: none;
+}
+.skill ul > li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: rgba(255,111,2,1.0);
+    margin-right: 15px;
+    -webkit-animation-name: rotate_square;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: rotate_square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes rotate_square{
+    0%{-webkit-transform: rotate(0deg);}
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes rotate_square{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+/*===========   END [[[[[[[[[[PORTFOLIO]]]]]]]]]]SECTION    ==========================*/
+
+/*===========   START [[[[[[[[[[CONTACT]]]]]]]]]]SECTION    ==========================*/
+#contact_form{
+    background-color: rgb(25,54,86);
+    width: 100%;
+    height: auto;
+}
+#contact_form .contact{
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(25,37,51);
+    padding: 15px;
+}
+.contact h3{
+    color: rgba(255,111,2,1.0);
+    text-align: center;
+/*    padding-left: 20px;*/
+}
+.contact input{
+    background-color: rgb(13,21,32);
+    border: none;
+    margin: 4px 0;
+    height: 40px;
+    border-radius: 4px;
+}
+input:focus {
+    background-color: #fff;
+}
+.all_input{
+    float: left;
+}
+.contact textarea{
+    margin-left: 20px;
+    background-color: rgb(13,21,32);
+    border: none;
+    float: left;
+}
+textarea:focus{
+    background-color: #fff;
+}
+input[type='submit']{
+    cursor:pointer;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    clear:both;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+   font-size: 12px;
+   font-style: oblique;
+   font-weight: 600;
+}
+.phone{
+    font-family: 'Satisfy', cursive;
+    color: rgba(255,111,2,1.0);
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+.phone span{
+    margin-left: 300px;
+}
+/*===========   END [[[[[[[[[[CONTACT]]]]]]]]]]SECTION    ==========================*/
+
+
+/*===========   START [[[[[[[[[[FOOTER]]]]]]]]]]SECTION    ==========================*/
+
+#footer{
+    width: 100%;
+    background-color: #191919;
+    height: auto;
+}
+#footer .col-6{
+    padding: 0;
+}
+#footer .copy_right p{
+    color: #fff;
+    text-align: center;
+}
+#footer .footer_icon ul{
+    list-style-type: none;
+    text-align: center;
+}
+#footer .footer_icon ul > li{
+    display: inline-block;
+}
+#footer .footer_icon ul > li > a{
+    font-size: 20px;
+    color: rgba(255,111,2,1.0);
+    margin-right: 20px;
+    transition: all 300ms linear;
+}
+#footer .footer_icon ul > li > a:hover{
+    color: #fff;
+  
+}
+/*===========   END [[[[[[[[[[FOOTER]]]]]]]]]]SECTION    ==========================*/

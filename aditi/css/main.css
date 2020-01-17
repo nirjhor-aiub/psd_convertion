@@ -1,0 +1,361 @@
+body{
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+}
+#content_wrapper{
+    width: 100%;
+    height: auto;
+}
+#header{
+/*    width: 100%;*/
+    height: 60px;
+}
+input.icon{
+    background-image: url(../images/search1.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 30px;
+    border: 1px solid #e1e1e1;
+    float: left;
+    width: 36.33%;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-left: 130px;
+    
+}
+.header_logo{
+/*    height: 44px;*/
+    float: left;
+/*    padding-left: 40px;*/
+}
+
+.header_logo img{
+    margin-left: 80px;
+/*    width: 26.33%*/
+}
+.header_right{    
+    width: 29.33%;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+.header_right img{
+    margin-left: 40px;
+}
+.header_right span{
+    color: #a1a1a1;
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    position: absolute;
+    margin-left: 22px;
+    bottom: -3px;
+}
+
+
+
+
+#menu_bar{
+/*    width: 100%;*/
+    min-height: 40px;
+    background-color: #4ccfc1;
+    position: relative;
+}
+div.menu{
+    position: absolute;
+    top: 10px;
+    left: 3%;
+}
+ul.menu_items{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto;
+   
+}
+.menu_items li{
+    display: inline-block;
+    
+    
+}
+.menu_items li a{
+    text-decoration: none;
+    color: #fff;
+    border-right: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+#banner{
+/*    width: 100%;*/
+    background-color: #42c0b6;
+    height: auto;
+    position: relative;
+}
+.banner_content{
+    width: 100%;
+    color: #fff;
+}
+.banner_image{
+    float: left;
+    width: 45%;
+}
+.banner_image img{
+margin-left: 231px;
+    margin-top: 50px
+}
+.banner_text{
+    float: left;
+    width: 28%;
+    margin-top: 80px;
+    margin-left: 19px;
+}
+.dotted{
+    clear: both;
+    width: 107px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.dotted img{
+    padding-left: 6px; 
+}
+.banner_text button{
+    background-color: #42c0b6;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+.banner_text h1:first-child{
+    text-align: justify;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.banner_text h1:last-of-type{
+    margin-top: -36px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.banner_text p{
+    margin-top: -13px;
+    padding-right: 40px;
+    line-height: 26px;
+}
+
+#singlerow_content{
+/*    width: 100%;*/
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 30px; 
+}
+img.arrow{
+   margin-top: 20px;
+}
+
+#singlerow_content ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#singlerow_content ul li{
+    display: inline-block;
+    width: 32.10%;
+    height: auto;
+}
+#singlerow_content ul li.mens_shoe{
+    
+
+}
+#singlerow_content ul li.mens_shoe img{
+    float: left;
+}
+#singlerow_content ul li div.click{
+   float: left;
+    margin: 10px 0 0 50px;
+}
+
+#singlerow_content ul li.mens_shoe .shoe{
+   float: right;
+}
+#singlerow_content ul li.animal_polo{
+    padding-left: 106px;
+    box-sizing: border-box;
+}
+#singlerow_content ul li.animal_polo img{
+    float: left;
+}
+#singlerow_content ul li.mens_trouser{
+     padding-left: 50px;
+    box-sizing: border-box;
+}
+#singlerow_content ul li.mens_trouser img:first-child{
+    float: left;
+}
+
+#singlerow_content ul li.mens_trouser div:only-of-type{
+    float: left;
+}
+#singlerow_content ul li.mens_trouser img:last-child{
+    float: right;
+}
+#singlerow_content p{
+    color: #afafaf;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#singlerow_content button{
+    background-color: #3cc395;
+    padding: 4px 7px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #3cc395 ;
+    border-radius: 3px;
+    font-weight: 600;
+}
+#featured_product{
+/*    width: 100%;*/
+    height: 60px;
+    background-color: #40c1b5;
+}
+#featured_product h2{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 18px 0 0 152px;
+}
+
+#main_content{
+/*    width: 100%;*/
+    height: auto;
+}
+#main_content .all_products{
+    width: 70%;
+    height: 650px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.ladies_shoe{
+    padding-top: 60px;
+}
+.levis_polo,.polo_white,.money_bag,.ladies_bag,.trouser{
+    padding: 30px 0;
+}
+.ladies_shoe,.levis_polo,.polo_white,.money_bag,.ladies_bag,.trouser{
+    height: 250px;
+    width: 30%;
+    text-align: center;
+    float: left;
+    border: 1px solid #e4e4e4;
+    border-bottom: 5px solid #3cc395;
+}
+.levis_polo,.ladies_bag{
+    margin: 0 4.5%;
+}
+.money_bag,.ladies_bag,.trouser{
+    margin-top: 30px;
+}
+#main_content button{
+    padding: 4px 7px;
+    background-color: #3cc395;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-left: 10px;
+    border: 1px solid #3cc395;
+}
+#main_content p{
+    text-transform: uppercase;
+    color: #afafaf;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom_products{
+    margin-top: 30px;
+    width: 100%;
+}
+/*
+.ladies_shoe p:last-of-type,.levis_polo p:last-of-type,.polo_white p:last-of-type{
+    padding-left: 40px;
+}
+*/
+#main_footer{
+    background-color: #3cc3b5;
+    height: 315px;
+}
+#main_footer h3{
+    text-transform: uppercase;
+    color: #fff;
+}
+#main_footer a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+#main_footer li{
+    margin: 10px 0;
+}
+#main_footer li a{
+    font-size: 14px;
+}
+#main_footer .footer_content{
+    width: 70%;
+/*    height: 400px;*/
+    margin: 0 auto;
+}
+#main_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.featured_sale,.mens_store,.womens_store,.quick_links{
+    width: 24%;
+    float: left;
+    
+}
+#bottom_footer{
+    background-color: #2da89b;
+    height: 40px;
+    margin-top: -16px;
+}
+#bottom_footer p{
+ text-align: center;
+    color: #fff;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
